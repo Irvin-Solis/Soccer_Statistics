@@ -1,0 +1,35 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "react website with node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irvin-Solis/Soccer_Statistics.git"
+  },
+  "keywords": [
+    "mysql",
+    "react"
+  ],
+  "author": "Irvin Daniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Irvin-Solis/Soccer_Statistics/issues"
+  },
+  "homepage": "https://github.com/Irvin-Solis/Soccer_Statistics#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
